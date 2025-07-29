@@ -32,10 +32,32 @@ This project is a Hardhat-based repository for practicing Solidity smart contrac
 
 - **Contract:** [`contracts/Basic/Constants.sol`](contracts/Basic/Constants.sol)
 - **Features:**
+
   - Constant variables (cannot be modified after declaration)
   - Gas optimization with hard-coded values
   - `constant` keyword usage
   - Immutable values for addresses and
+
+  ### 6. Immutable
+
+- **Contract:** [`contracts/Basic/Immutable.sol`](contracts/Basic/Immutable.sol)
+- **Features:**
+
+  - Immutable variables (can only be set in constructor)
+  - `immutable` keyword usage
+  - Constructor-time initialization
+  - Gas optimization compared to state variables
+  - Cannot be modified
+
+  ### 7. Reading and Writing State Variables
+
+- **Contract:** [`contracts/Basic/ReadingWritingStateVariable.sol`](contracts/Basic/ReadingWritingStateVariable.sol)
+- **Features:**
+  - State variable storage and retrieval
+  - Transaction requirements for writing state
+  - Free reading of state variables
+  - `public` variables automatic getter functions
+  - Gas costs difference between read and write operations
 
 ## Installation
 
