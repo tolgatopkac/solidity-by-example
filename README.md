@@ -17,14 +17,25 @@ This project is a Hardhat-based repository for practicing Solidity smart contrac
 ### 3. Primitive Data Types
 
 - **Contract:** [`contracts/Basic/PrimitiveDataTypes.sol`](contracts/Basic/PrimitiveDataTypes.sol)
+
+### 4. Variables
+
+- **Contract:** [`contracts/Basic/Variables.sol`](contracts/Basic/Variables.sol)
 - **Features:**
-  - Boolean types (`bool`)
-  - Unsigned integers (`uint8`, `uint256`)
-  - Signed integers (`int8`, `int256`)
-  - Address type (`address`)
-  - Byte arrays (`bytes1`)
-  - Default values for uninitialized variables
-  - Min/max values using `type()` function
+
+  - Local variables (declared inside functions, not stored on blockchain)
+  - State variables (declared outside functions, stored on blockchain)
+  - Global variables (`block.timestamp`, `msg.sender`)
+  - Variable scope and storage differences
+
+  ### 5. Constants
+
+- **Contract:** [`contracts/Basic/Constants.sol`](contracts/Basic/Constants.sol)
+- **Features:**
+  - Constant variables (cannot be modified after declaration)
+  - Gas optimization with hard-coded values
+  - `constant` keyword usage
+  - Immutable values for addresses and
 
 ## Installation
 
