@@ -59,6 +59,55 @@ This project is a Hardhat-based repository for practicing Solidity smart contrac
   - `public` variables automatic getter functions
   - Gas costs difference between read and write operations
 
+### 8. Gas and Gas Price
+
+- **Contract:** [`contracts/Basic/GasGasPrice.sol`](contracts/Basic/GasGasPrice.sol)
+- **Features:**
+  - Gas concepts and limits in Ethereum
+  - Gas Limit vs Block Gas Limit differences
+  - Transaction failure scenarios when gas runs out
+  - State changes are reverted but gas is not refunded
+  - Infinite loop example that consumes all gas
+  - Understanding gas as "fuel" for operations
+
+### 9. If-Else Statements
+
+- **Contract:** [`contracts/Basic/if-else.sol`](contracts/Basic/if-else.sol)
+- **Features:**
+  - Conditional statements (`if`, `else if`, `else`)
+  - Ternary operator usage
+  - Pure functions and return values
+  - Control flow in Solidity
+
+### 10. For and While Loops
+
+- **Contract:** [`contracts/Basic/for-while-loop.sol`](contracts/Basic/for-while-loop.sol)
+- **Features:**
+  - For loop implementation
+  - While loop implementation
+  - `continue` and `break` statements
+  - Loop control and iteration patterns
+
+### 11. Mapping
+
+- **Contract:** [`contracts/Basic/Mapping.sol`](contracts/Basic/Mapping.sol)
+- **Features:**
+  - Basic mapping (`mapping(keyType => valueType)`)
+  - Nested mappings for complex data structures
+  - Get, set, and remove operations
+  - Default values in mappings
+  - Non-iterable nature of mappings
+
+### 12. Ether and Wei Units
+
+- **Contract:** [`contracts/Basic/EtherWei.sol`](contracts/Basic/EtherWei.sol)
+- **Features:**
+  - Ether unit conversions (wei, gwei, ether)
+  - Understanding 1 ether = 10^18 wei
+  - Unit literals in Solidity (`1 wei`, `1 gwei`, `1 ether`)
+  - Boolean comparisons with unit values
+  - Transaction payment concepts
+
 ## Installation
 
 ```shell
