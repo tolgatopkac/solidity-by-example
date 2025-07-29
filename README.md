@@ -108,6 +108,20 @@ This project is a Hardhat-based repository for practicing Solidity smart contrac
   - Boolean comparisons with unit values
   - Transaction payment concepts
 
+### 13. Arrays
+
+- **Contract:** [`contracts/Basic/Array.sol`](contracts/Basic/Array.sol)
+- **Features:**
+  - Dynamic arrays (`uint256[] public arr`)
+  - Fixed-size arrays (`uint256[10] public myFixedArr`)
+  - Array initialization with values
+  - Basic operations: `push()`, `pop()`, `get()`, `getLength()`
+  - Array deletion with `delete` keyword
+  - Memory arrays with `new` keyword
+  - Two array removal strategies:
+    - **ArrayRemoveByShifting**: Expensive but maintains order
+    - **ArrayReplaceFromEnd**: Gas efficient but changes order
+
 ## Installation
 
 ```shell
