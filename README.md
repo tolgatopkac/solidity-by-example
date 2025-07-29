@@ -1,13 +1,42 @@
-# Sample Hardhat Project
+# Solidity Practice Examples
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a Hardhat-based repository for practicing Solidity smart contract development. It contains various example contracts and tests to learn and practice fundamental Solidity concepts.
 
-Try running some of the following tasks:
+## Examples
+
+### 1. HelloWorld Contract
+
+- **Contract:** [`contracts/Basic/HelloWorld.sol`](contracts/Basic/HelloWorld.sol)
+- **Test:** [`test/Basic/HelloWorld.js`](test/Basic/HelloWorld.js)
+
+### 2. First App Counter Contract
+
+- **Contract:** [`contracts/Basic/FirstAppCounter.sol`](contracts/Basic/FirstAppCounter.sol)
+- **Test:** [`test/Basic/FirstAppCounter.js`](test/Basic/FirstAppCounter.js)
+
+## Installation
 
 ```shell
-npx hardhat help
+npm install
+```
+
+## Running Tests
+
+### All tests
+
+```shell
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
+
+### Specific tests
+
+```shell
+# HelloWorld tests
+npx hardhat test test/Basic/HelloWorld.js
+
+# Counter tests
+npx hardhat test test/Basic/FirstAppCounter.js
+
+# Lock tests
+npx hardhat test test/Lock.js
 ```
