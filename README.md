@@ -14,6 +14,18 @@ This project is a Hardhat-based repository for practicing Solidity smart contrac
 - **Contract:** [`contracts/Basic/FirstAppCounter.sol`](contracts/Basic/FirstAppCounter.sol)
 - **Test:** [`test/Basic/FirstAppCounter.js`](test/Basic/FirstAppCounter.js)
 
+### 3. Primitive Data Types
+
+- **Contract:** [`contracts/Basic/PrimitiveDataTypes.sol`](contracts/Basic/PrimitiveDataTypes.sol)
+- **Features:**
+  - Boolean types (`bool`)
+  - Unsigned integers (`uint8`, `uint256`)
+  - Signed integers (`int8`, `int256`)
+  - Address type (`address`)
+  - Byte arrays (`bytes1`)
+  - Default values for uninitialized variables
+  - Min/max values using `type()` function
+
 ## Installation
 
 ```shell
